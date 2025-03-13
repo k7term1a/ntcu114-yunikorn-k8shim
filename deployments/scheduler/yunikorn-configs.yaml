@@ -20,6 +20,8 @@ kind: ConfigMap
 metadata:
   name: yunikorn-configs
 data:
+  service.enableConfigHotRefresh: "true"
+  service.schedulingInterval: "1s"
   queues.yaml: |
     partitions:
       - name: default

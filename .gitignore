@@ -13,3 +13,4 @@
 *.test
 /build.date
 yunikorn-logs.txt
+run_yunikorn.log
